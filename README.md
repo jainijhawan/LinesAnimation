@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 Xcode 10
 
-Swift 4
+Swift 4.2
 
 ## Installation
 
