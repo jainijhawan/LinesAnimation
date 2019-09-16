@@ -11,6 +11,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Xcode 10
+
+Swift 4
+
 ## Installation
 
 LinesAnimation is available through [CocoaPods](https://cocoapods.org). To install
@@ -34,4 +38,6 @@ jainijhawan, jainijhawan@gmail.com
 
 LinesAnimation is available under the MIT license. See the LICENSE file for more info.
 
-(https://i.ibb.co/ydtZtGx/ezgif-com-video-to-gif.gif)
+## Working
+
+![](https://i.ibb.co/n69Y9ZK/ezgif-com-video-to-gif.gif)
