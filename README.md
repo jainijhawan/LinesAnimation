@@ -20,6 +20,12 @@ it, simply add the following line to your Podfile:
 pod 'LinesAnimation'
 ```
 
+## Usage
+```ruby
+yourButton.animatingButton(btn: yourButton, tDistance: 150, withDuration: 1, numberOfLines: 8)
+```
+import https://ibb.co/5LPwqgn  to your xcassets
+
 ## Author
 
 jainijhawan, jainijhawan@gmail.com
@@ -27,3 +33,5 @@ jainijhawan, jainijhawan@gmail.com
 ## License
 
 LinesAnimation is available under the MIT license. See the LICENSE file for more info.
+
+(https://i.ibb.co/ydtZtGx/ezgif-com-video-to-gif.gif)
