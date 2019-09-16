@@ -7,12 +7,11 @@
 //
 
 import UIKit
-
+import LinesAnimation
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+ 
+  override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,5 +19,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+  @IBAction func btnPressed(_ sender: AnimatingButton) {
+    sender.animatingButton(btn: sender, tDistance: 150, withDuration: 1, numberOfLines: 8)
+    
+  }
 }
 

@@ -11,12 +11,12 @@
 		0A5BE320DD6A6EB01439A544B145E383 /* Pods-LinesAnimation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCFE34CBE952D6886916D68F7BB5AD3 /* Pods-LinesAnimation_Tests-dummy.m */; };
 		1E7FAD4ABCB173ADC1FE983266A8745B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2932302EE480A273285DEF10D624773A /* LinesAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91632ECFE403E11D46B88CA40EB881EA /* LinesAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BFB5E073AF5A5673103ECD0B4B9AED6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01661F3233CFC711BE219A5CC779A5A3 /* ReplaceMe.swift */; };
 		8D80C9776D1254A79518D4FB5A42492A /* Pods-LinesAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF37DBC38C10F211CCA406F3AAF53FCA /* Pods-LinesAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9353BFFC2B9F0E2A845BBDF03A3A913D /* LinesAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 496B98CEC60170D544766FB5462ABAE3 /* LinesAnimation-dummy.m */; };
 		9FC2F04B9105451EC2FB8BAC9970D653 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		CB25325CC29D0CBFD771CDFFBC594228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DD6C4217902189B9618E06CF0CA2C62B /* Pods-LinesAnimation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BAE5D912A55D8B937DFA93FB30375F9 /* Pods-LinesAnimation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B1E3FD232F946A0043EE4A /* AnimatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B1E3FC232F946A0043EE4A /* AnimatingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01661F3233CFC711BE219A5CC779A5A3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LinesAnimation/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		15083E826802DBEF146ED7CA74592ADB /* Pods-LinesAnimation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LinesAnimation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		16A9A96241DE5BEA438C88EC665DB4A4 /* Pods-LinesAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinesAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		20F796A3B323CC8C475D68CA987AB948 /* Pods-LinesAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinesAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		295D1A70D63386F986317885F551DC03 /* Pods-LinesAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LinesAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3D6F9E3020EB13849800C259AB81D665 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3D6F9E3020EB13849800C259AB81D665 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		496B98CEC60170D544766FB5462ABAE3 /* LinesAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LinesAnimation-dummy.m"; sourceTree = "<group>"; };
 		4B5EF11F58F32B767488E294682068BD /* Pods-LinesAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LinesAnimation_Example.modulemap"; sourceTree = "<group>"; };
 		5BAE5D912A55D8B937DFA93FB30375F9 /* Pods-LinesAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LinesAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -51,23 +50,24 @@
 		69846494F65407CB8F84359B7FE5F6E0 /* LinesAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LinesAnimation.xcconfig; sourceTree = "<group>"; };
 		7053CE09BF6B61B41ABC242296E8A7CF /* Pods-LinesAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinesAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		72626FCBEE5EA606E5018148666D483F /* LinesAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LinesAnimation-Info.plist"; sourceTree = "<group>"; };
-		76B54E66A2F99AA9DF4D7B6F1CF870C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		76B54E66A2F99AA9DF4D7B6F1CF870C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7CBAABA334026AA562054A7049EAD61E /* Pods-LinesAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LinesAnimation_Example-dummy.m"; sourceTree = "<group>"; };
 		7EEBAAC7E625213503CB6E468FED0385 /* Pods-LinesAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinesAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		85B9F48F5BAE5BC9F2972611194F828D /* LinesAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LinesAnimation.modulemap; sourceTree = "<group>"; };
 		8EB9941E66FA9801D10E7DD9945F1C7B /* Pods-LinesAnimation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinesAnimation_Tests-Info.plist"; sourceTree = "<group>"; };
 		907479CB666C5C706474F114BB1B9F91 /* Pods-LinesAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LinesAnimation_Tests.modulemap"; sourceTree = "<group>"; };
 		91632ECFE403E11D46B88CA40EB881EA /* LinesAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinesAnimation-umbrella.h"; sourceTree = "<group>"; };
-		931A4FAE3F3B0CAC8540DA3B561E4CAC /* LinesAnimation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LinesAnimation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		931A4FAE3F3B0CAC8540DA3B561E4CAC /* LinesAnimation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LinesAnimation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B4626B0587372170C65F9DB6C130500C /* Pods-LinesAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LinesAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B9B56E50F7C4BC0071E417B387A7D63C /* LinesAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LinesAnimation.framework; path = LinesAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B56E50F7C4BC0071E417B387A7D63C /* LinesAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LinesAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF37DBC38C10F211CCA406F3AAF53FCA /* Pods-LinesAnimation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LinesAnimation_Example-umbrella.h"; sourceTree = "<group>"; };
 		BFCFE34CBE952D6886916D68F7BB5AD3 /* Pods-LinesAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LinesAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
 		C1677E604D1C4F00C4546FF8820515EA /* Pods-LinesAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinesAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C8BFD5F54F08BB679DC41BF21AD75F12 /* Pods_LinesAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LinesAnimation_Example.framework; path = "Pods-LinesAnimation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BFD5F54F08BB679DC41BF21AD75F12 /* Pods_LinesAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinesAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60D695D8C7FBB9B487FF596F1759476 /* LinesAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinesAnimation-prefix.pch"; sourceTree = "<group>"; };
-		EA53C06B41265A60D5160C80D639D5C3 /* Pods_LinesAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LinesAnimation_Tests.framework; path = "Pods-LinesAnimation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA53C06B41265A60D5160C80D639D5C3 /* Pods_LinesAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinesAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B1E3FC232F946A0043EE4A /* AnimatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingButton.swift; sourceTree = "<group>"; };
 		FA611C83984CF615270D97B97E35F14C /* Pods-LinesAnimation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinesAnimation_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,7 +167,7 @@
 		CAFB947B89122BD4BB9C245E50198D4F /* LinesAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				01661F3233CFC711BE219A5CC779A5A3 /* ReplaceMe.swift */,
+				F7B1E3FC232F946A0043EE4A /* AnimatingButton.swift */,
 				D9D77153B6D47D7CF694DD52EF7B41F4 /* Pod */,
 				2C1866543D1AE5DCDB01602D8D981CAD /* Support Files */,
 			);
@@ -315,6 +315,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					4A12D618A9E282FE9CFF5F78BF91D264 = {
+						LastSwiftMigration = 1030;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -380,8 +385,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B1E3FD232F946A0043EE4A /* AnimatingButton.swift in Sources */,
 				9353BFFC2B9F0E2A845BBDF03A3A913D /* LinesAnimation-dummy.m in Sources */,
-				8BFB5E073AF5A5673103ECD0B4B9AED6 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69846494F65407CB8F84359B7FE5F6E0 /* LinesAnimation.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -427,6 +433,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -472,6 +479,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69846494F65407CB8F84359B7FE5F6E0 /* LinesAnimation.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -553,8 +561,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
