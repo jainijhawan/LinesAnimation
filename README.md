@@ -34,4 +34,4 @@ jainijhawan, jainijhawan@gmail.com
 
 LinesAnimation is available under the MIT license. See the LICENSE file for more info.
 
-(https://i.ibb.co/ydtZtGx/ezgif-com-video-to-gif.gif)
+https://i.ibb.co/ydtZtGx/ezgif-com-video-to-gif.gif
