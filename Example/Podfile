@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LinesAnimation_Example' do
+  pod 'LinesAnimation', :path => '../'
+
+  target 'LinesAnimation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
