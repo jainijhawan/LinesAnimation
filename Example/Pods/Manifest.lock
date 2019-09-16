@@ -1,0 +1,16 @@
+PODS:
+  - LinesAnimation (0.1.0)
+
+DEPENDENCIES:
+  - LinesAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  LinesAnimation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LinesAnimation: 8b61a16a56b210c32a3928d068263346f26b766c
+
+PODFILE CHECKSUM: e9c5a1f6ea6c16a77fb2a80fe4426f59b260e633
+
+COCOAPODS: 1.7.5

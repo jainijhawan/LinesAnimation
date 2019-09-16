@@ -1,0 +1,6 @@
+framework module LinesAnimation {
+  umbrella header "LinesAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}
